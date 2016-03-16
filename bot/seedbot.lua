@@ -324,108 +324,132 @@ This command will send text to [group_id]
 
 ]],
     help_text = [[
-Commands list :
+دستورات گروه
 
-!kick [username|id]
-You can also do it by reply
+!kick [ایدی فرد و یا ریپلی پیام او]
+کیک کردن فردی
 
-!ban [ username|id]
-You can also do it by reply
+!ban [ایدی فرد و یا ریپلی پیام او]
+کیک دائمی فردی
 
-!unban [id]
-You can also do it by reply
+!unban [ایدی فرد و یا ریپلی پیام او]
+خلاص شدن از کیک دائمی فردی.
 
 !who
-Members list
+لیست اعضا
 
 !modlist
-Moderators list
+لیست مدیران گروه
 
-!promote [username]
-Promote someone
+!promote [ایدی فرد و یا ریپلی پیام او]
+اضافه کردن مدیری به گروه
 
-!demote [username]
-Demote someone
+!demote [ایدی فرد و یا ریپلی پیام او.]
+حذف کردن فردی از مدیریت در گروه
 
 !kickme
-Will kick user
+خروج از گروه
 
 !about
-Group description
+درباره گروه
 
 !setphoto
-Set and locks group photo
+تنظیم عکس  و قفل کردن ان
 
-!setname [name]
-Set group name
+!setname [نام]
+تنظیم نام گروه به : نام
 
 !rules
-Group rules
+قوانین گروه
 
 !id
-Return group id or user id
-
-!help
-Get commands list
+ایدی گروه و با ریپلی کردن پیام فردی ایدی او را نشان میدهد
 
 !lock [member|name|bots|leave] 
-Locks [member|name|bots|leaveing] 
+بستن : اعضا - نام - ورود ربات ها - خروج اعضا
 
 !unlock [member|name|bots|leave]
-Unlocks [member|name|bots|leaving]
+بازکردن : اعضا - نام - ورود ربات ها - خروج اعضا
 
-!set rules [text]
-Set [text] as rules
+!set rules <متن>
+تنظیم قوانین گروه به : متن
 
-!set about [text]
-Set [text] as about
+!set about <متن>
+تنظیم درباره گروه به : متن
 
 !settings
-Returns group settings
+تنظیمات گروه
+
+addadmin
+اضافه شدن مدیر به گروه
 
 !newlink
-Create/revoke your group link
+لینک جدید
 
 !link
-Returns group link
+لینک گروه
 
 !owner
-Returns group owner id
+ایدی صاحب گروه
 
-!setowner [id]
-Will set id as owner
+!setowner [ایدی فرد و یا ریپلی پیام او]
+تنظیم صاحب گروه
 
-!setflood [value]
-Set [value] as flood sensitivity
+!setflood [عدد]
+تنظیم مقدار اسپم : میتواند از عدد 5 شروع شود.
 
 !stats
-Simple message statistics
+نمایش تعداد پیام ها
 
-!save [value] [text]
-Save [text] as [value]
+!save [نام دستور] <متن>
+ساختن دستور جدید : نام دستور - متن
 
-!get [value]
-Returns text of [value]
+!get [نام دستور]
+دریافن دستور
 
 !clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+پاک کردن : لیست مدیران - قوانین - درباره گروه
 
 !res [username]
-Returns user id
+دریافت نام و ایدی فردی. مثال👇🏻
+"!res @Mr_anti_admin"
 
 !log
-Will return group logs
+دریافت ورودی های گروه
 
 !banlist
-Will return group ban list
+لیست افراد بن شده
 
-» U can use both "/" and "!" 
+-------------------------
+پلاگین های تفریحی ربات:
 
-» Only mods, owner and admin can add bots in group
+!echo [text]
+تکرار متن شما توسط ربات
 
-» Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
+!web [URL]
+دریافت اسکرین شات از سایت
 
-» Only owner can use res,setowner,promote,demote and log commands
+سلام کن به ....
+جای سه نقطه اسم یا هرمتنی
+
+!info 
+دیدن اطلاعات و مقام شخص 
+با ریپلی انجام بدید
+
+!setrank [text]
+دادن مقام به کسی در گروه
+با ریپلی انجام بدید
+--------------------------
+میتوانید از "/" و "!" استفاده کنید.
+
+فقط سازنده ربات میتواند ربات را درگروهی ادکند.
+
+مدیران گروه میتوانند بر گروه مدیریت کنند.
+
+صاحب گروه میتواند مدیر اضافه کند.
+----------------------------
+ارتباط با سازنده ربات جهت دریافت گروه و انتقادوپیشنهاد : @Mr_Anti_Admin
+
 
 ]]
   }
